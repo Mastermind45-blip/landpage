@@ -1,0 +1,60 @@
+Berikut adalah isi file PDF yang telah dikonversi ke dalam format teks (txt):
+
+---
+
+# DAFA DESKAISYAH
+
+Gorontalo, Indonesia
+dafadeskaisyah@gmail.com ⬇ linkedin.com ⬇ github.com
+
+## OBJECTIVE
+
+Enthusiastic technology student with strong skills in Python, along with a basic understanding of JavaScript and PHP. Committed to continuous learning and skill enhancement. Experienced with Git, Linux, PostgreSQL, and MySQL, and currently exploring artificial intelligence using TensorFlow and Scikit-Learn. Seeking opportunities in a dynamic work environment to contribute and further develop my abilities.
+
+## EDUCATION
+
+**Computer Science, Information Technology Engineering**, Ichsan University, Gorontalo 2022 - Present
+
+## ORGANIZATIONAL EXPERIENCE
+
+**Machine Learning Student**, Google Developer Student Club 2023 - 2024
+- Enhanced Python programming skills.
+- Gained fundamental knowledge in algorithms and object-oriented programming.
+- Implemented machine learning models using Python, Scikit-Learn, and TensorFlow.
+
+## SOLO PROJECTS
+
+### Creating a Movie Recommendation System with scikit-learn
+- Extracted data from CSV files and manipulated it using pandas.
+- Developed a movie recommendation system using machine learning with scikit-learn.
+- Processed data using cosine similarity and stored the results in a .pkl file.
+- Displayed the results on a website using Streamlit.
+
+## ACADEMIC PROJECTS
+
+### Web Development with Native PHP Student
+- Developed a website featuring user login, data entry, and tuition payment processing.
+- Stored and managed data using MySQL.
+
+### Data Scraping and Analysis of La Liga Standings
+- Performed data scraping using BeautifulSoup.
+- Managed raw data with pandas and exported it to a CSV file.
+- Visualized data using matplotlib.
+
+---
+
+FINAL MSIB INDEPENDENT STUDY PROJECT
+
+Coffee Shop Customer Segmentation Analysis 2024
+- Clustered customers based on purchasing patterns using the K-Means algorithm.
+- Evaluated the model using metrics such as the Silhouette Score and Davies-Bouldin Score.
+- Integrated the analysis results with a Large Language Model (LLM) for easier interpretation.
+- Provided data-driven recommendations for more effective marketing strategies.
+
+## SKILLS
+
+**Technical Skills**: Python, JavaScript (Beginner), HTML, CSS, PHP (Beginner), Git, Linux, MySQL, PostgreSQL, TensorFlow, Scikit-Learn, Streamlit, Matplotlib, LangChain
+**Other Skills**: Strong communication, teamwork, and problem-solving skills
+**Languages**: English and Indonesian
+
+---

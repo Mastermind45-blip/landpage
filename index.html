@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dafa Deskaisyah - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50 font-sans">
+    <header class="bg-white shadow-sm sticky top-0 z-10">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <h1 class="text-xl font-bold text-gray-800">DAFA DESKAISYAH</h1>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="text-gray-600 hover:text-blue-500">About</a>
+                    <a href="#projects" class="text-gray-600 hover:text-blue-500">Projects</a>
+                    <a href="#experience" class="text-gray-600 hover:text-blue-500">Experience</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-500">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-6 py-12">
+        <section id="about" class="mb-20">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Hi, I'm Dafa Deskaisyah</h2>
+                    <p class="text-gray-600 mb-6">
+                        Enthusiastic technology student with strong skills in Python, along with a basic understanding of JavaScript and PHP. Committed to continuous learning and skill enhancement.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://github.com/Mastermind45-blip?tab=repositories" class="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-700">GitHub</a>
+                        <a href="https://www.linkedin.com/in/dafa-deskaisyah-877167245" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-500">LinkedIn</a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="relative w-64 h-64">
+                        <img src="ChatGPT Image Mar 29, 2025, 07_12_04 PM.png" alt="Dafa Deskaisyah" 
+                             class="w-full h-full rounded-full object-cover border-4 border-white shadow-md"
+                             style="object-position: center top">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="mb-20">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6">Technical Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="bg-white p-4 rounded-lg shadow-sm">
+                    <h3 class="font-semibold">Python</h3>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-sm">
+                    <h3 class="font-semibold">JavaScript</h3>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-sm">
+                    <h3 class="font-semibold">PHP</h3>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-sm">
+                    <h3 class="font-semibold">HTML/CSS</h3>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-sm">
+                    <h3 class="font-semibold">TensorFlow</h3>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-sm">
+                    <h3 class="font-semibold">Scikit-Learn</h3>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-sm">
+                    <h3 class="font-semibold">MySQL</h3>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-sm">
+                    <h3 class="font-semibold">PostgreSQL</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="mb-20">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6">Featured Projects</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-semibold mb-2">Movie Recommendation System</h3>
+                    <p class="text-gray-600 mb-4">Developed a movie recommendation system using scikit-learn with cosine similarity.</p>
+                    <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-md">Python</span>
+                    <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded-md">Machine Learning</span>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-semibold mb-2">La Liga Standings Analysis</h3>
+                    <p class="text-gray-600 mb-4">Performed data scraping using BeautifulSoup and visualized with matplotlib.</p>
+                    <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-md">Python</span>
+                    <span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-md">Data Analysis</span>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-semibold mb-2">Coffee Shop Customer Segmentation</h3>
+                    <p class="text-gray-600 mb-4">Clustered customers using K-Means algorithm with LLM integration.</p>
+                    <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-md">Python</span>
+                    <span class="inline-block bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded-md">AI</span>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-semibold mb-2">Tuition Payment System</h3>
+                    <p class="text-gray-600 mb-4">Web development with native PHP and MySQL database.</p>
+                    <span class="inline-block bg-red-100 text-red-800 text-xs px-2 py-1 rounded-md">PHP</span>
+                    <span class="inline-block bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded-md">Web Dev</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="mb-20">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6">Experience & Education</h2>
+            <div class="space-y-8">
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-semibold">Machine Learning Student</h3>
+                    <p class="text-gray-600">Google Developer Student Club | 2023 - 2024</p>
+                    <ul class="mt-4 list-disc list-inside text-gray-600 space-y-2">
+                        <li>Enhanced Python programming skills</li>
+                        <li>Implemented machine learning models using Python, Scikit-Learn, and TensorFlow</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-semibold">Computer Science</h3>
+                    <p class="text-gray-600">Ichsan University, Gorontalo | 2022 - Present</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="mb-20">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6">Get In Touch</h2>
+            <div class="bg-white p-6 rounded-lg shadow-sm max-w-2xl mx-auto text-center">
+                <p class="text-gray-600 mb-4">Feel free to reach out to me via email:</p>
+                <a href="mailto:dafadeskaisyah@gmail.com" class="text-blue-600 hover:text-blue-800 text-xl font-medium">
+                    dafadeskaisyah@gmail.com
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>© 2024 Dafa Deskaisyah. All rights reserved.</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="mailto:dafadeskaisyah@gmail.com" class="hover:text-blue-300">Email</a>
+                <a href="https://github.com/" class="hover:text-blue-300">GitHub</a>
+                <a href="https://linkedin.com/" class="hover:text-blue-300">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

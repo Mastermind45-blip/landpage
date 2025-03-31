@@ -1,0 +1,54 @@
+/* Custom styles to complement Tailwind */
+body {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 80px;
+}
+
+#projects .bg-white {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#projects .bg-white:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form textarea {
+    transition: border-color 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #3b82f6;
+}
+
+/* Mobile menu styles */
+@media (max-width: 767px) {
+    nav ul {
+        display: none;
+    }
+}
+
+/* Animation for skills */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+#skills div {
+    animation: fadeIn 0.5s ease forwards;
+    opacity: 0;
+}
+
+#skills div:nth-child(1) { animation-delay: 0.1s; }
+#skills div:nth-child(2) { animation-delay: 0.2s; }
+#skills div:nth-child(3) { animation-delay: 0.3s; }
+#skills div:nth-child(4) { animation-delay: 0.4s; }
+#skills div:nth-child(5) { animation-delay: 0.5s; }
+#skills div:nth-child(6) { animation-delay: 0.6s; }
+#skills div:nth-child(7) { animation-delay: 0.7s; }
+#skills div:nth-child(8) { animation-delay: 0.8s; }
